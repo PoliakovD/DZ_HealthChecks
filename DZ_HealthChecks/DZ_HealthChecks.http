@@ -1,0 +1,6 @@
+@DZ_HealthChecks_HostAddress = http://localhost:5285
+
+GET {{DZ_HealthChecks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
